@@ -60,7 +60,7 @@ module GeoNames
     attr_accessor :api_base, :username
 
     def initialize
-      @api_base = 'http://api.geonames.org/'
+      @api_base = 'https://secure.geonames.org/'
       @username = nil
     end
   end
